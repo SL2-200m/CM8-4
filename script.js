@@ -1,8 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Age Verification
-    const ageVerification = document.querySelector('.age-verification');
-    const confirmAge = document.getElementById('confirmAge');
-    const exitSite = document.getElementById('exitSite');
     
     // Check if age is already verified
     if (!localStorage.getItem('ageVerified')) {
